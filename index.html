@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GlowSkin Co. - AI Support</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <main class="chat-container">
+
+        <header class="chat-header">
+            <div class="brand">
+                <div class="brand-icon">✦</div>
+                <div>
+                    <h1>GlowSkin Co.</h1>
+                    <p>AI Customer Support</p>
+                </div>
+            </div>
+            <div class="status">
+                <span class="status-dot"></span>
+                Online
+            </div>
+        </header>
+
+        <section id="log" class="chat-log">
+            <div class="message bot">
+                <div class="avatar">✦</div>
+                <div class="message-content">
+                    <div class="message-name">
+                        GlowSkin AI
+                    </div>
+                    <div class="message-text">
+                        Hi! 👋 How can I help you today?
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="chat-input-area">
+            <input
+                id="in"
+                type="text"
+                placeholder="Ask a question..."
+                autocomplete="off"
+            >
+            <button id="send-button" type="button">
+                Send
+            </button>
+        </footer>
+        
+    </main>
+    <script src="/static/script.js"></script>
+</body>
+</html>
